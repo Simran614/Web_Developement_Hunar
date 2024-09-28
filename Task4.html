@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replicated Design</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        background: url('background.jpg') no-repeat center center/cover;
+        color: #333;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .scenario {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+    }
+    
+    h1 {
+        color: #1e3a8a;
+        font-size: 36px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    
+    .image-reference h2 {
+        color: #1e90ff;
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    
+    .image-content {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f7f7f7;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .image-content img {
+        max-width: 50%;
+        border-radius: 10px;
+    }
+    
+    .about-us {
+        max-width: 45%;
+    }
+    
+    .about-us h3 {
+        font-size: 30px;
+        color: #333;
+    }
+    
+    .about-us h4 {
+        font-size: 22px;
+        color: #555;
+        margin-bottom: 10px;
+    }
+    
+    .about-us button {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .about-us button:hover {
+        background-color: #333;
+    }
+    
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .info-block {
+        background-color: #ff6347;
+        padding: 20px;
+        border-radius: 8px;
+        color: white;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .info-block span {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .info-block p {
+        font-size: 16px;
+    }
+</style>    
+</head>
+<body>
+        <div class="image-content">
+                <img src="Image.jpg" alt="Image Reference">
+                <div class="about-us">
+                    <h4>About My Tasks</h4>
+                    <h4>My Personal Homepage</h4>
+                    <p>Personal Homepage: This is a personal website designed to showcase your skills, projects, and portfolio. It serves as a digital resume, featuring sections like an introduction, about me, skills, work experience, and contact details. The homepage reflects your unique style and personality while providing easy navigation and a professional presentation.</p>
+                    <h4>Online Course Website</h4>
+                    <p>Online Course Website: The Online Course Website allows users to browse and enroll in various educational courses. It includes features like course management, personalized recommendations, user profiles, and feedback. The website is designed to help learners discover relevant content and track their progress, offering a streamlined and engaging experience for self-paced learning</p>
+                    <h4>Netflix Clone Website</h4>
+                    <p>Netflix Clone Website: A Netflix-inspired clone that replicates the core user interface and functionality of the popular streaming platform. It features a sleek, responsive design where users can browse through movie and TV show categories, view details, and watch trailers. The site includes dynamic content updates, user-friendly navigation, and content recommendations, aiming to offer a similar experience to Netflix.</p>
+                    <button>Contact Us</button>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="info-block">
+                    <span>📞 CALL US</span>
+                    <p>+917417387463</p>
+                </div>
+                <div class="info-block">
+                    <span>📍 LOCATION</span>
+                    <p>Mini-bypass Green City Extension B block,Bareilly</p>
+                </div>
+                <div class="info-block">
+                    <span>⏰ HOURS</span>
+                    <p>Mon-Fri: 11 am - 8 pm <br> Sat, Sun: 6 am - 6 pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    document.querySelector('button').addEventListener('click', () => {
+        alert('Thank you for reaching out!');
+    });
+    </script>
+</body>
+</html>
